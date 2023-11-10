@@ -6,12 +6,23 @@
 
 .content {
     height: 100px;
+}
+
+.border-w {
     border: 1px dashed white;
+}
+
+.border-b {
+    border: 1px dashed black;
 }
 
 .content-2 {
     height: 500px;
     border: 1px dashed black;
+}
+
+.content-3 {
+    height: 300px;
 }
 
 header {
