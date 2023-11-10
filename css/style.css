@@ -25,10 +25,22 @@
     height: 300px;
 }
 
+.content-4 {
+    height: 200px;
+}
+
 header {
     background-color: #2D3E50;
 }
 
 #bg_color {
     background-color: #17BC9C;
+}
+
+#bg_color_2 {
+    background-color: #3A546D;
+}
+
+#bg_color_3 {
+    background-color: #2D3E50;
 }
