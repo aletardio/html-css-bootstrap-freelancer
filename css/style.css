@@ -44,3 +44,8 @@ header {
 #bg_color_3 {
     background-color: #2D3E50;
 }
+
+.img-avatar {
+    width: 20%;
+    height: auto;
+}
