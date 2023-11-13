@@ -132,7 +132,6 @@ header {
     margin: 0 90px;
   }
   
-  
   .menu {
     display: inline;
   }
@@ -145,7 +144,16 @@ header {
     width: 100%;
   }
 
-  @media screen and (max-width: 991px) {
+  .space-response {
+    padding: 10px;
+  }
+
+  .fa-download {
+    color: white;
+    padding: 0 5px;
+  }
+
+  @media screen and (max-width: 768px) {
     .hamburger {
         display: block;
     }
@@ -155,16 +163,25 @@ header {
     }
 
     .img-avatar {
-        max-width: 40%;
+        max-width: 50%;
     }
 
     .title-main {
         font-size: 45px;
     }
 
+    .title {
+        font-size: 35px;
+    }
+
+    .star-icon:before, .star-icon::after {
+        width: 100px;
+        margin: 0 110px;
+    }
+
     .star-icon-black:before, .star-icon-black::after {
         width: 100px;
-        margin: 0 100px;
+        margin: 0 110px;
     }
 
     .fnt-size-txt {
@@ -188,6 +205,10 @@ header {
 
     .title-main {
         font-size: 35px;
+    }
+
+    .title {
+        font-size: 30px;
     }
 
     .star-icon:before, .star-icon::after {
