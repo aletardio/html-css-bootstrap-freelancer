@@ -46,12 +46,16 @@ header {
 }
 
 .img-avatar {
-    width: 20%;
+    max-width: 30%;
     height: auto;
 }
 
 .title {
     font-size: 60px;
+}
+
+.fnt-size-txt {
+    font-size: 25px;
 }
 
 .star-icon {
@@ -66,26 +70,93 @@ header {
   .star-icon:before {
     content: "";
     display: block;
-    width: 200px;
+    width: 170px;
     height: 5px;
     background: #fff;
     border-radius: 20px;
     left: 0;
     top: 50%;
     position: absolute;
-    margin: 0 60px;
+    margin: 0 90px;
   }
   
   .star-icon:after {
     content: "";
     display: block;
-    width: 200px;
+    width: 170px;
     height: 5px;
     background: #fff;
     border-radius: 20px;
     right: 0;
     top: 50%;
     position: absolute;
-    margin: 0 60px;
+    margin: 0 90px;
+  }
+
+  .menu {
+    display: inline;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 991px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .img-avatar {
+        max-width: 50%;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .star-icon:before, .star-icon::after {
+        width: 100px;
+        margin: 0 100px;
+    }
+
+    .fnt-size-txt {
+        font-size: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 576px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .img-avatar {
+        max-width: 60%;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .star-icon:before, .star-icon::after {
+        width: 110px;
+        margin: 0 110px;
+    }
+    
+    .fnt-size-txt {
+        font-size: 15px;
+    }
   }
 
