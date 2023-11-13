@@ -50,8 +50,12 @@ header {
     height: auto;
 }
 
-.title {
+.title-main {
     font-size: 60px;
+}
+
+.title {
+    font-size: 50px;
 }
 
 .fnt-size-txt {
@@ -93,6 +97,42 @@ header {
     margin: 0 90px;
   }
 
+  .star-icon-black {
+    color: black;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+
+  .star-icon-black:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: black;
+    border-radius: 20px;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin: 0 90px;
+  }
+  
+  .star-icon-black:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: black;
+    border-radius: 20px;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    margin: 0 90px;
+  }
+  
+  
   .menu {
     display: inline;
   }
@@ -115,14 +155,14 @@ header {
     }
 
     .img-avatar {
-        max-width: 50%;
+        max-width: 40%;
     }
 
-    .title {
+    .title-main {
         font-size: 45px;
     }
 
-    .star-icon:before, .star-icon::after {
+    .star-icon-black:before, .star-icon-black::after {
         width: 100px;
         margin: 0 100px;
     }
@@ -146,12 +186,17 @@ header {
         max-width: 60%;
     }
 
-    .title {
+    .title-main {
         font-size: 35px;
     }
 
     .star-icon:before, .star-icon::after {
-        width: 110px;
+        width: 100px;
+        margin: 0 110px;
+    }
+
+    .star-icon-black:before, .star-icon-black::after {
+        width: 100px;
         margin: 0 110px;
     }
     
