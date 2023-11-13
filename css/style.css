@@ -153,14 +153,34 @@ header {
     padding: 0 5px;
   }
 
-  @media screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
+  .my-input {
+    border: none;
+    border-bottom: 1px solid rgb(178, 178, 178);
+    width: 100%;
+    padding-bottom: 15px;
+  }
 
-    .menu {
-        display: none;
-    }
+  .padding-b {
+    padding-bottom: 100px;
+  }
+
+  .btn-send {
+    background-color: #17BC9C;
+    border: 1px solid #17BC9C;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin: 15px 0;
+  }
+
+  .btn-send:hover {
+    border: 1px solid #17BC9C;
+    color: #17BC9C;
+  }
+
+  @media screen and (max-width: 768px) {
 
     .img-avatar {
         max-width: 50%;
@@ -191,13 +211,6 @@ header {
   }
 
   @media screen and (max-width: 576px) {
-    .hamburger {
-        display: block;
-    }
-
-    .menu {
-        display: none;
-    }
 
     .img-avatar {
         max-width: 60%;

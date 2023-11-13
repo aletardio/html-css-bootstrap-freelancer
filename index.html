@@ -22,10 +22,10 @@
                 </div>
                 <div class="col-6 g-0 d-flex align-items-center justify-content-end">
                     <ul class="list-inline m-0">
-                        <li class="list-inline-item menu text-uppercase text-light fw-bold px-2">Portfolio</li>
-                        <li class="list-inline-item menu text-uppercase text-light fw-bold px-2">About</li>
-                        <li class="list-inline-item menu text-uppercase text-light fw-bold px-2">Contact</li>
-                        <li class="text-light hamburger"><i class="fa-solid fa-bars fa-lg"></i></li>
+                        <li class="list-inline-item d-md-none d-lg-inline-block menu text-uppercase text-light fw-bold px-2">Portfolio</li>
+                        <li class="list-inline-item d-md-none d-lg-inline-block menu text-uppercase text-light fw-bold px-2">About</li>
+                        <li class="list-inline-item d-md-none d-lg-inline-block menu text-uppercase text-light fw-bold px-2">Contact</li>
+                        <li class="text-light hamburger d-md-block d-lg-none"><i class="fa-solid fa-bars fa-lg"></i></li>
                     </ul>
                 </div>
             </div>
@@ -125,10 +125,29 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="content-2">
-                    
+                <div class="col-12 pt-5 pb-5">
+                    <div class="text-uppercase title fw-bold text-center">
+                        Contact me
                     </div>
+                    <div class="star-icon-black">
+                        <i class="fa-solid fa-star fa-md"></i>
+                    </div>
+
+                    <form action="#" method="get">
+                        <label for="name" class="form-label"></label>
+                        <input type="text" id="name" name="name" placeholder="Name" class="my-input" required>
+                        <label for="email" class="form-label"></label>
+                        <input type="text" id="email" name="email" placeholder="Email Adress" class="my-input" required>
+                        <label for="phone" class="form-label"></label>
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number" class="my-input" required>
+                        <label for="message" class="form-label"></label>
+                        <input type="text" id="message" name="message" placeholder="Message" class="my-input padding-b" required>
+                    </form>
+
+                    <button type="button" class="btn-send">
+                        Send
+                    </button>
+
                 </div>
             </div>
         </div>
