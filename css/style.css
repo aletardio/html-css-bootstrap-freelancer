@@ -49,3 +49,43 @@ header {
     width: 20%;
     height: auto;
 }
+
+.title {
+    font-size: 60px;
+}
+
+.star-icon {
+    color: white;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+
+  .star-icon:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 5px;
+    background: #fff;
+    border-radius: 20px;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin: 0 60px;
+  }
+  
+  .star-icon:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 5px;
+    background: #fff;
+    border-radius: 20px;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    margin: 0 60px;
+  }
+
